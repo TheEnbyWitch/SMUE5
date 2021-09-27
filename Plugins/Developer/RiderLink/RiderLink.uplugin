@@ -1,0 +1,44 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "2021.2.0.4",
+  "FriendlyName": "RiderLink",
+  "Description": "Plugin for establishing IPC connection with JetBrains Rider IDE",
+  "Category": "Programming",
+  "CreatedBy": "JetBrains",
+  "CreatedByURL": "https://www.jetbrains.com/",
+  "DocsURL": "",
+  "MarketplaceURL": "",
+  "SupportURL": "",
+  "CanContainContent": false,
+  "IsBetaVersion": true,
+  "Installed": false,
+  "Modules": [
+    {
+      "Name": "RD",
+      "Type": "EditorNoCommandlet",
+      "LoadingPhase": "PreDefault"
+    },
+    {
+      "Name": "RiderLink",
+      "Type": "EditorNoCommandlet",
+      "LoadingPhase": "PreDefault"
+    },
+    {
+      "Name": "RiderLoggingExtension",
+      "Type": "EditorNoCommandlet",
+      "LoadingPhase": "PreDefault"
+    },
+    {
+      "Name": "RiderBlueprintExtension",
+      "Type": "EditorNoCommandlet",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "RiderGameControlExtension",
+      "Type": "EditorNoCommandlet",
+      "LoadingPhase": "Default"
+    }
+  ],
+  "EnabledByDefault": true
+}
