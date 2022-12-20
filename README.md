@@ -20,10 +20,12 @@ TL;DR this is a very simple experiment that aimed to put [libsm64](https://githu
  - Absolutely no interaction or events you can hook up to with the Unreal game world. That one may need modifications made to [libsm64](https://github.com/libsm64/libsm64) itself.
 
 ## Frequently Asked Questions
+### I'm getting a compile error!
+Run the [import-mario-geo.py](https://github.com/TheEnbyWitch/SMUE5/blob/master/Plugins/LibSM64UE/Source/ThirdParty/libsm64/libsm64/import-mario-geo.py) script. (Found in `/Plugins/LibSM64UE/Source/ThirdParty/libsm64/libsm64/import-mario-geo.py`)
 ### Is this Mario's movement reimplemented in Blueprints?
 No. All of that handled is within the [libsm64](https://github.com/libsm64/libsm64) library. Would be a fun thing to try though (but not for me).
 ### Where do I put the ROM?
-Content folder of the project (`/Content/`). It also needs to be named `sm64.z64`, and it needs to be the US ROM specifically (as per requirements of [libsm64](https://github.com/libsm64/libsm64)).
+Content folder of the project (`/Content/`). It also needs to be named `sm64.z64`, and it needs to be the US ROM specifically.
 ### Will you finish it?
 No.
 
